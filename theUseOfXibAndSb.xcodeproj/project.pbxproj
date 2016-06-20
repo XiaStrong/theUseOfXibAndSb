@@ -34,6 +34,32 @@
 		150DA3371D17DDDB0070DF31 /* XCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 150DA3321D17DDDB0070DF31 /* XCell.m */; };
 		150DA3381D17DDDB0070DF31 /* XCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150DA3331D17DDDB0070DF31 /* XCell.xib */; };
 		150DA33B1D17DDF00070DF31 /* UIColor+RandomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 150DA33A1D17DDF00070DF31 /* UIColor+RandomColor.m */; };
+		150DA34B1D17E7000070DF31 /* Book.plist in Resources */ = {isa = PBXBuildFile; fileRef = 150DA33D1D17E7000070DF31 /* Book.plist */; };
+		150DA34C1D17E7000070DF31 /* BookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150DA33F1D17E7000070DF31 /* BookViewController.m */; };
+		150DA34D1D17E7000070DF31 /* BookViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150DA3401D17E7000070DF31 /* BookViewController.xib */; };
+		150DA34E1D17E7000070DF31 /* CommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 150DA3421D17E7000070DF31 /* CommentCell.m */; };
+		150DA34F1D17E7000070DF31 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150DA3431D17E7000070DF31 /* CommentCell.xib */; };
+		150DA3501D17E7000070DF31 /* CommentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 150DA3451D17E7000070DF31 /* CommentTableViewCell.m */; };
+		150DA3511D17E7000070DF31 /* CommentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150DA3461D17E7000070DF31 /* CommentTableViewCell.xib */; };
+		150DA3521D17E7000070DF31 /* PrizeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 150DA3481D17E7000070DF31 /* PrizeTableViewCell.m */; };
+		150DA3531D17E7000070DF31 /* PrizeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 150DA3491D17E7000070DF31 /* PrizeTableViewCell.xib */; };
+		150DA3541D17E7000070DF31 /* QQ20150720-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 150DA34A1D17E7000070DF31 /* QQ20150720-1.png */; };
+		150DA3601D17E7360070DF31 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = 150DA3561D17E7360070DF31 /* 0.png */; };
+		150DA3611D17E7360070DF31 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 150DA3571D17E7360070DF31 /* 1.png */; };
+		150DA3621D17E7360070DF31 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 150DA3581D17E7360070DF31 /* 2.png */; };
+		150DA3631D17E7360070DF31 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 150DA3591D17E7360070DF31 /* 3.png */; };
+		150DA3641D17E7360070DF31 /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 150DA35A1D17E7360070DF31 /* 4.png */; };
+		150DA3651D17E7360070DF31 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 150DA35B1D17E7360070DF31 /* 5.png */; };
+		150DA3661D17E7360070DF31 /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 150DA35C1D17E7360070DF31 /* 6.png */; };
+		150DA3671D17E7360070DF31 /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 150DA35D1D17E7360070DF31 /* 7.png */; };
+		150DA3681D17E7360070DF31 /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 150DA35E1D17E7360070DF31 /* 8.png */; };
+		150DA3691D17E7360070DF31 /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 150DA35F1D17E7360070DF31 /* 9.png */; };
+		150DA36E1D17E7760070DF31 /* dd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 150DA36B1D17E7760070DF31 /* dd.jpg */; };
+		150DA36F1D17E7760070DF31 /* jd.png in Resources */ = {isa = PBXBuildFile; fileRef = 150DA36C1D17E7760070DF31 /* jd.png */; };
+		150DA3701D17E7760070DF31 /* ymx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 150DA36D1D17E7760070DF31 /* ymx.jpg */; };
+		150DA3721D17F2B80070DF31 /* main@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 150DA3711D17F2B80070DF31 /* main@2x.png */; };
+		150DA3761D17F3930070DF31 /* MViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 150DA3751D17F3930070DF31 /* MViewController.m */; };
+		150DA3791D17F5FB0070DF31 /* LogoBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 150DA3781D17F5FB0070DF31 /* LogoBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +124,38 @@
 		150DA3331D17DDDB0070DF31 /* XCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XCell.xib; sourceTree = "<group>"; };
 		150DA3391D17DDF00070DF31 /* UIColor+RandomColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+RandomColor.h"; sourceTree = "<group>"; };
 		150DA33A1D17DDF00070DF31 /* UIColor+RandomColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+RandomColor.m"; sourceTree = "<group>"; };
+		150DA33D1D17E7000070DF31 /* Book.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Book.plist; sourceTree = "<group>"; };
+		150DA33E1D17E7000070DF31 /* BookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookViewController.h; sourceTree = "<group>"; };
+		150DA33F1D17E7000070DF31 /* BookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookViewController.m; sourceTree = "<group>"; };
+		150DA3401D17E7000070DF31 /* BookViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookViewController.xib; sourceTree = "<group>"; };
+		150DA3411D17E7000070DF31 /* CommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentCell.h; sourceTree = "<group>"; };
+		150DA3421D17E7000070DF31 /* CommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentCell.m; sourceTree = "<group>"; };
+		150DA3431D17E7000070DF31 /* CommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
+		150DA3441D17E7000070DF31 /* CommentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentTableViewCell.h; sourceTree = "<group>"; };
+		150DA3451D17E7000070DF31 /* CommentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentTableViewCell.m; sourceTree = "<group>"; };
+		150DA3461D17E7000070DF31 /* CommentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentTableViewCell.xib; sourceTree = "<group>"; };
+		150DA3471D17E7000070DF31 /* PrizeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrizeTableViewCell.h; sourceTree = "<group>"; };
+		150DA3481D17E7000070DF31 /* PrizeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrizeTableViewCell.m; sourceTree = "<group>"; };
+		150DA3491D17E7000070DF31 /* PrizeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrizeTableViewCell.xib; sourceTree = "<group>"; };
+		150DA34A1D17E7000070DF31 /* QQ20150720-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "QQ20150720-1.png"; sourceTree = "<group>"; };
+		150DA3561D17E7360070DF31 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		150DA3571D17E7360070DF31 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		150DA3581D17E7360070DF31 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		150DA3591D17E7360070DF31 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		150DA35A1D17E7360070DF31 /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		150DA35B1D17E7360070DF31 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		150DA35C1D17E7360070DF31 /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		150DA35D1D17E7360070DF31 /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		150DA35E1D17E7360070DF31 /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		150DA35F1D17E7360070DF31 /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		150DA36B1D17E7760070DF31 /* dd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dd.jpg; sourceTree = "<group>"; };
+		150DA36C1D17E7760070DF31 /* jd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jd.png; sourceTree = "<group>"; };
+		150DA36D1D17E7760070DF31 /* ymx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ymx.jpg; sourceTree = "<group>"; };
+		150DA3711D17F2B80070DF31 /* main@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main@2x.png"; sourceTree = "<group>"; };
+		150DA3741D17F3930070DF31 /* MViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MViewController.h; sourceTree = "<group>"; };
+		150DA3751D17F3930070DF31 /* MViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MViewController.m; sourceTree = "<group>"; };
+		150DA3771D17F5FB0070DF31 /* LogoBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogoBtn.h; sourceTree = "<group>"; };
+		150DA3781D17F5FB0070DF31 /* LogoBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogoBtn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,11 +214,16 @@
 				150DA3061D17DC2A0070DF31 /* 21.jpg */,
 				150DA3071D17DC2A0070DF31 /* 22.jpg */,
 				150DA3081D17DC2A0070DF31 /* 23.jpg */,
+				150DA3711D17F2B80070DF31 /* main@2x.png */,
 				150DA30F1D17DC540070DF31 /* ViewController.h */,
 				150DA3101D17DC540070DF31 /* ViewController.m */,
 				150DA3121D17DC820070DF31 /* Main.storyboard */,
+				150DA3151D17DD410070DF31 /* Second.storyboard */,
 				150DA3391D17DDF00070DF31 /* UIColor+RandomColor.h */,
 				150DA33A1D17DDF00070DF31 /* UIColor+RandomColor.m */,
+				150DA3731D17F3570070DF31 /* 某些应用首页布局 */,
+				150DA3551D17E7290070DF31 /* 头像 */,
+				150DA33C1D17E6D70070DF31 /* 图书界面 */,
 				150DA32A1D17DDBF0070DF31 /* xib与sb的cell使用 */,
 				150DA3211D17DD980070DF31 /* Cell高度自适应 */,
 				150DA31B1D17DD6F0070DF31 /* 动态跳转页面 */,
@@ -202,7 +265,6 @@
 		150DA3141D17DD2C0070DF31 /* sb的横竖屏基本使用pad和iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				150DA3151D17DD410070DF31 /* Second.storyboard */,
 				150DA3161D17DD410070DF31 /* SecondViewController.h */,
 				150DA3171D17DD410070DF31 /* SecondViewController.m */,
 			);
@@ -245,6 +307,66 @@
 				150DA3331D17DDDB0070DF31 /* XCell.xib */,
 			);
 			name = "xib与sb的cell使用";
+			sourceTree = "<group>";
+		};
+		150DA33C1D17E6D70070DF31 /* 图书界面 */ = {
+			isa = PBXGroup;
+			children = (
+				150DA33D1D17E7000070DF31 /* Book.plist */,
+				150DA36A1D17E7690070DF31 /* logo */,
+				150DA33E1D17E7000070DF31 /* BookViewController.h */,
+				150DA33F1D17E7000070DF31 /* BookViewController.m */,
+				150DA3401D17E7000070DF31 /* BookViewController.xib */,
+				150DA3411D17E7000070DF31 /* CommentCell.h */,
+				150DA3421D17E7000070DF31 /* CommentCell.m */,
+				150DA3431D17E7000070DF31 /* CommentCell.xib */,
+				150DA3441D17E7000070DF31 /* CommentTableViewCell.h */,
+				150DA3451D17E7000070DF31 /* CommentTableViewCell.m */,
+				150DA3461D17E7000070DF31 /* CommentTableViewCell.xib */,
+				150DA3471D17E7000070DF31 /* PrizeTableViewCell.h */,
+				150DA3481D17E7000070DF31 /* PrizeTableViewCell.m */,
+				150DA3491D17E7000070DF31 /* PrizeTableViewCell.xib */,
+				150DA34A1D17E7000070DF31 /* QQ20150720-1.png */,
+			);
+			name = "图书界面";
+			sourceTree = "<group>";
+		};
+		150DA3551D17E7290070DF31 /* 头像 */ = {
+			isa = PBXGroup;
+			children = (
+				150DA3561D17E7360070DF31 /* 0.png */,
+				150DA3571D17E7360070DF31 /* 1.png */,
+				150DA3581D17E7360070DF31 /* 2.png */,
+				150DA3591D17E7360070DF31 /* 3.png */,
+				150DA35A1D17E7360070DF31 /* 4.png */,
+				150DA35B1D17E7360070DF31 /* 5.png */,
+				150DA35C1D17E7360070DF31 /* 6.png */,
+				150DA35D1D17E7360070DF31 /* 7.png */,
+				150DA35E1D17E7360070DF31 /* 8.png */,
+				150DA35F1D17E7360070DF31 /* 9.png */,
+			);
+			name = "头像";
+			sourceTree = "<group>";
+		};
+		150DA36A1D17E7690070DF31 /* logo */ = {
+			isa = PBXGroup;
+			children = (
+				150DA36B1D17E7760070DF31 /* dd.jpg */,
+				150DA36C1D17E7760070DF31 /* jd.png */,
+				150DA36D1D17E7760070DF31 /* ymx.jpg */,
+			);
+			name = logo;
+			sourceTree = "<group>";
+		};
+		150DA3731D17F3570070DF31 /* 某些应用首页布局 */ = {
+			isa = PBXGroup;
+			children = (
+				150DA3741D17F3930070DF31 /* MViewController.h */,
+				150DA3751D17F3930070DF31 /* MViewController.m */,
+				150DA3771D17F5FB0070DF31 /* LogoBtn.h */,
+				150DA3781D17F5FB0070DF31 /* LogoBtn.m */,
+			);
+			name = "某些应用首页布局";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -350,16 +472,36 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150DA3671D17E7360070DF31 /* 7.png in Resources */,
+				150DA3621D17E7360070DF31 /* 2.png in Resources */,
 				150DA2E01D17DBBA0070DF31 /* LaunchScreen.storyboard in Resources */,
 				150DA30D1D17DC2A0070DF31 /* 22.jpg in Resources */,
+				150DA34D1D17E7000070DF31 /* BookViewController.xib in Resources */,
+				150DA34F1D17E7000070DF31 /* CommentCell.xib in Resources */,
+				150DA3721D17F2B80070DF31 /* main@2x.png in Resources */,
 				150DA3091D17DC2A0070DF31 /* 1.jpg in Resources */,
+				150DA3691D17E7360070DF31 /* 9.png in Resources */,
+				150DA3661D17E7360070DF31 /* 6.png in Resources */,
 				150DA3381D17DDDB0070DF31 /* XCell.xib in Resources */,
+				150DA3611D17E7360070DF31 /* 1.png in Resources */,
 				150DA30A1D17DC2A0070DF31 /* 2.jpg in Resources */,
 				150DA3201D17DD8A0070DF31 /* ThirdViewController.xib in Resources */,
+				150DA3531D17E7000070DF31 /* PrizeTableViewCell.xib in Resources */,
+				150DA36F1D17E7760070DF31 /* jd.png in Resources */,
+				150DA3651D17E7360070DF31 /* 5.png in Resources */,
+				150DA36E1D17E7760070DF31 /* dd.jpg in Resources */,
+				150DA3631D17E7360070DF31 /* 3.png in Resources */,
+				150DA3641D17E7360070DF31 /* 4.png in Resources */,
 				150DA30B1D17DC2A0070DF31 /* 3.jpg in Resources */,
+				150DA3701D17E7760070DF31 /* ymx.jpg in Resources */,
 				150DA30E1D17DC2A0070DF31 /* 23.jpg in Resources */,
 				150DA3281D17DDAE0070DF31 /* CellA.xib in Resources */,
+				150DA3511D17E7000070DF31 /* CommentTableViewCell.xib in Resources */,
+				150DA3681D17E7360070DF31 /* 8.png in Resources */,
+				150DA34B1D17E7000070DF31 /* Book.plist in Resources */,
 				150DA3131D17DC820070DF31 /* Main.storyboard in Resources */,
+				150DA3541D17E7000070DF31 /* QQ20150720-1.png in Resources */,
+				150DA3601D17E7360070DF31 /* 0.png in Resources */,
 				150DA30C1D17DC2A0070DF31 /* 21.jpg in Resources */,
 				150DA3181D17DD410070DF31 /* Second.storyboard in Resources */,
 				150DA2DD1D17DBBA0070DF31 /* Assets.xcassets in Resources */,
@@ -392,13 +534,19 @@
 				150DA31F1D17DD8A0070DF31 /* ThirdViewController.m in Sources */,
 				150DA3111D17DC540070DF31 /* ViewController.m in Sources */,
 				150DA33B1D17DDF00070DF31 /* UIColor+RandomColor.m in Sources */,
+				150DA34C1D17E7000070DF31 /* BookViewController.m in Sources */,
 				150DA3351D17DDDB0070DF31 /* PicCell.m in Sources */,
 				150DA3271D17DDAE0070DF31 /* CellA.m in Sources */,
 				150DA2D51D17DBBA0070DF31 /* AppDelegate.m in Sources */,
+				150DA34E1D17E7000070DF31 /* CommentCell.m in Sources */,
 				150DA3291D17DDAE0070DF31 /* CellHeightSuitViewController.m in Sources */,
+				150DA3791D17F5FB0070DF31 /* LogoBtn.m in Sources */,
 				150DA3361D17DDDB0070DF31 /* ViewController2.m in Sources */,
+				150DA3521D17E7000070DF31 /* PrizeTableViewCell.m in Sources */,
 				150DA3341D17DDDB0070DF31 /* NewCell.m in Sources */,
+				150DA3501D17E7000070DF31 /* CommentTableViewCell.m in Sources */,
 				150DA2D21D17DBBA0070DF31 /* main.m in Sources */,
+				150DA3761D17F3930070DF31 /* MViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +629,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -519,7 +667,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";

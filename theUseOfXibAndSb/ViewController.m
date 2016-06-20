@@ -11,6 +11,8 @@
 #import "ThirdViewController.h"
 #import "ViewController2.h"
 #import "CellHeightSuitViewController.h"
+#import "BookViewController.h"
+#import "MViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource,UIViewControllerTransitioningDelegate>
 {
     NSArray *dataArr;
@@ -23,7 +25,7 @@
     [super viewDidLoad];
     self.title=@"布局";
 
-    dataArr=@[@"sb的横竖屏基本使用pad和iPhone",@"动态跳转页面",@"xib与sb的cell使用",@"cell高度自适应"];
+    dataArr=@[@"sb的横竖屏基本使用pad和iPhone",@"动态跳转页面",@"xib与sb的cell使用",@"cell高度自适应",@"图书界面",@"某些应用首页布局"];
     
     _myTab.delegate=self;
     _myTab.dataSource=self;
@@ -93,6 +95,23 @@
             [self.navigationController pushViewController:cvc animated:YES];
 
         
+        }
+            break;
+            
+        case 4:{
+            //图书界面的比价在真机上不会出现问题，在模拟器上回出现问题
+            BookViewController *bvc =[[BookViewController alloc]init];
+            [self.navigationController pushViewController:bvc animated:YES];
+
+        }
+            break;
+            
+        case 5:{
+            
+            UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Second" bundle:nil];
+            MViewController *mvc =[storyboard instantiateViewControllerWithIdentifier:@"MViewController"];
+            [self.navigationController pushViewController:mvc animated:YES];
+
         }
             break;
             
